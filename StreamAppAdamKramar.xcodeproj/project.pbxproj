@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C52FF67A5896061C98C1364 /* libPods-StreamAppAdamKramar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51EFC9973D28072D5B8FB11 /* libPods-StreamAppAdamKramar.a */; };
+		665D4BBD242A3CF800B8E4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BBC242A3CF800B8E4FD /* AppDelegate.swift */; };
+		665D4BBF242A3CF800B8E4FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BBE242A3CF800B8E4FD /* SceneDelegate.swift */; };
+		665D4BC1242A3CF800B8E4FD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BC0242A3CF800B8E4FD /* DetailViewController.swift */; };
+		665D4BC4242A3CF800B8E4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665D4BC2242A3CF800B8E4FD /* Main.storyboard */; };
+		665D4BC6242A3CFC00B8E4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665D4BC5242A3CFC00B8E4FD /* Assets.xcassets */; };
+		665D4BD7242A825000B8E4FD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BD6242A825000B8E4FD /* ListViewController.swift */; };
+		665D4BDD242A84F200B8E4FD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BDB242A84F200B8E4FD /* MovieCell.swift */; };
+		665D4BDE242A84F200B8E4FD /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665D4BDC242A84F200B8E4FD /* MovieCell.xib */; };
+		665D4BE0242A88E900B8E4FD /* MovieListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BDF242A88E900B8E4FD /* MovieListManager.swift */; };
+		665D4BE6242B97D300B8E4FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BE5242B97D300B8E4FD /* Constants.swift */; };
+		665D4BEE242BAD5000B8E4FD /* DataStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BEC242BAD5000B8E4FD /* DataStructs.swift */; };
+		665D4BF2242BB45300B8E4FD /* MovieDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BF1242BB45300B8E4FD /* MovieDetailManager.swift */; };
+		665D4BFE242BFDD100B8E4FD /* YouTubeVideoQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4BFD242BFDD100B8E4FD /* YouTubeVideoQuality.swift */; };
+		665D4C02242D547300B8E4FD /* MovieModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 665D4C00242D547300B8E4FD /* MovieModel.xcdatamodeld */; };
+		665D4C04242D5A8D00B8E4FD /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4C03242D5A8D00B8E4FD /* DataBaseHelper.swift */; };
+		665D4C09242E495800B8E4FD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D4C08242E495800B8E4FD /* Alert.swift */; };
+		666A4AB824BE40CE00E4E016 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A4AB724BE40CE00E4E016 /* Connectivity.swift */; };
+		666A4ABA24BE4C3300E4E016 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A4AB924BE4C3300E4E016 /* Client.swift */; };
+		666A4ABC24BE576900E4E016 /* MovieManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A4ABB24BE576900E4E016 /* MovieManagerHelper.swift */; };
+		666A4ACD24BEEF7A00E4E016 /* DataBaseHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A4ACC24BEEF7A00E4E016 /* DataBaseHelperTest.swift */; };
+		667130C524BEFDA800EF9891 /* MovieManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667130C424BEFDA800EF9891 /* MovieManagerTest.swift */; };
+		667130C724BF012E00EF9891 /* TestDataStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667130C624BF012E00EF9891 /* TestDataStructs.swift */; };
+		667130C924BF2B4900EF9891 /* ClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667130C824BF2B4900EF9891 /* ClientTest.swift */; };
+		8AEC06169B3A65FC9E26CD44 /* libPods-StreamAppAdamKramarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C53189B535CF9BE8DB793E2 /* libPods-StreamAppAdamKramarTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666A4AC624BEEE5B00E4E016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665D4BB1242A3CF800B8E4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665D4BB8242A3CF800B8E4FD;
+			remoteInfo = StreamAppAdamKramar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8B8504A516241B198E369C /* Pods-StreamAppAdamKramarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamAppAdamKramarTests.release.xcconfig"; path = "Target Support Files/Pods-StreamAppAdamKramarTests/Pods-StreamAppAdamKramarTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C53189B535CF9BE8DB793E2 /* libPods-StreamAppAdamKramarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StreamAppAdamKramarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		665D4BB9242A3CF800B8E4FD /* StreamAppAdamKramar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamAppAdamKramar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665D4BBC242A3CF800B8E4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665D4BBE242A3CF800B8E4FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		665D4BC0242A3CF800B8E4FD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		665D4BC3242A3CF800B8E4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665D4BC5242A3CFC00B8E4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665D4BCA242A3CFD00B8E4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665D4BD6242A825000B8E4FD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		665D4BDB242A84F200B8E4FD /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		665D4BDC242A84F200B8E4FD /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		665D4BDF242A88E900B8E4FD /* MovieListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListManager.swift; sourceTree = "<group>"; };
+		665D4BE5242B97D300B8E4FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		665D4BEC242BAD5000B8E4FD /* DataStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructs.swift; sourceTree = "<group>"; };
+		665D4BF1242BB45300B8E4FD /* MovieDetailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailManager.swift; sourceTree = "<group>"; };
+		665D4BF8242BDB7F00B8E4FD /* StreamAppAdamKramar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamAppAdamKramar-Bridging-Header.h"; sourceTree = "<group>"; };
+		665D4BFD242BFDD100B8E4FD /* YouTubeVideoQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVideoQuality.swift; sourceTree = "<group>"; };
+		665D4C01242D547300B8E4FD /* MovieModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieModel.xcdatamodel; sourceTree = "<group>"; };
+		665D4C03242D5A8D00B8E4FD /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		665D4C08242E495800B8E4FD /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		666A4AB724BE40CE00E4E016 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		666A4AB924BE4C3300E4E016 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		666A4ABB24BE576900E4E016 /* MovieManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerHelper.swift; sourceTree = "<group>"; };
+		666A4AC124BEEE5B00E4E016 /* StreamAppAdamKramarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamAppAdamKramarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666A4AC524BEEE5B00E4E016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666A4ACC24BEEF7A00E4E016 /* DataBaseHelperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelperTest.swift; sourceTree = "<group>"; };
+		666A4ACE24BEF0D700E4E016 /* StreamAppAdamKramarTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamAppAdamKramarTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		667130C424BEFDA800EF9891 /* MovieManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerTest.swift; sourceTree = "<group>"; };
+		667130C624BF012E00EF9891 /* TestDataStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataStructs.swift; sourceTree = "<group>"; };
+		667130C824BF2B4900EF9891 /* ClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTest.swift; sourceTree = "<group>"; };
+		9641F89F412515F69966B545 /* Pods-StreamAppAdamKramarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamAppAdamKramarTests.debug.xcconfig"; path = "Target Support Files/Pods-StreamAppAdamKramarTests/Pods-StreamAppAdamKramarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A16FC634306459D8CEAA4E92 /* Pods-StreamAppAdamKramar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamAppAdamKramar.debug.xcconfig"; path = "Target Support Files/Pods-StreamAppAdamKramar/Pods-StreamAppAdamKramar.debug.xcconfig"; sourceTree = "<group>"; };
+		A51EFC9973D28072D5B8FB11 /* libPods-StreamAppAdamKramar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StreamAppAdamKramar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF86AB1B0A6A313362F13D99 /* Pods-StreamAppAdamKramar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamAppAdamKramar.release.xcconfig"; path = "Target Support Files/Pods-StreamAppAdamKramar/Pods-StreamAppAdamKramar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665D4BB6242A3CF800B8E4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C52FF67A5896061C98C1364 /* libPods-StreamAppAdamKramar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A4ABE24BEEE5B00E4E016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEC06169B3A65FC9E26CD44 /* libPods-StreamAppAdamKramarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665D4BB0242A3CF800B8E4FD = {
+			isa = PBXGroup;
+			children = (
+				665D4BBB242A3CF800B8E4FD /* StreamAppAdamKramar */,
+				666A4AC224BEEE5B00E4E016 /* StreamAppAdamKramarTests */,
+				665D4BBA242A3CF800B8E4FD /* Products */,
+				B99806CE980AED2A62746AD4 /* Pods */,
+				E60293613D81827B9AA134D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665D4BBA242A3CF800B8E4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665D4BB9242A3CF800B8E4FD /* StreamAppAdamKramar.app */,
+				666A4AC124BEEE5B00E4E016 /* StreamAppAdamKramarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665D4BBB242A3CF800B8E4FD /* StreamAppAdamKramar */ = {
+			isa = PBXGroup;
+			children = (
+				665D4BBC242A3CF800B8E4FD /* AppDelegate.swift */,
+				665D4BBE242A3CF800B8E4FD /* SceneDelegate.swift */,
+				665D4C07242E0D3200B8E4FD /* Utils */,
+				665D4BFF242C053200B8E4FD /* Headers */,
+				665D4BDA242A842500B8E4FD /* Model */,
+				665D4BD5242A6BA000B8E4FD /* View */,
+				665D4BD4242A6B8D00B8E4FD /* Controller */,
+				665D4BC5242A3CFC00B8E4FD /* Assets.xcassets */,
+				665D4BCA242A3CFD00B8E4FD /* Info.plist */,
+			);
+			path = StreamAppAdamKramar;
+			sourceTree = "<group>";
+		};
+		665D4BD4242A6B8D00B8E4FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665D4BC0242A3CF800B8E4FD /* DetailViewController.swift */,
+				665D4BD6242A825000B8E4FD /* ListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665D4BD5242A6BA000B8E4FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665D4BC2242A3CF800B8E4FD /* Main.storyboard */,
+				665D4BDB242A84F200B8E4FD /* MovieCell.swift */,
+				665D4BDC242A84F200B8E4FD /* MovieCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665D4BDA242A842500B8E4FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				666A4AB924BE4C3300E4E016 /* Client.swift */,
+				665D4BDF242A88E900B8E4FD /* MovieListManager.swift */,
+				665D4BF1242BB45300B8E4FD /* MovieDetailManager.swift */,
+				666A4ABB24BE576900E4E016 /* MovieManagerHelper.swift */,
+				665D4C03242D5A8D00B8E4FD /* DataBaseHelper.swift */,
+				665D4BFD242BFDD100B8E4FD /* YouTubeVideoQuality.swift */,
+				665D4BEC242BAD5000B8E4FD /* DataStructs.swift */,
+				665D4C00242D547300B8E4FD /* MovieModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665D4BFF242C053200B8E4FD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				665D4BF8242BDB7F00B8E4FD /* StreamAppAdamKramar-Bridging-Header.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		665D4C07242E0D3200B8E4FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				666A4AB724BE40CE00E4E016 /* Connectivity.swift */,
+				665D4BE5242B97D300B8E4FD /* Constants.swift */,
+				665D4C08242E495800B8E4FD /* Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		666A4AC224BEEE5B00E4E016 /* StreamAppAdamKramarTests */ = {
+			isa = PBXGroup;
+			children = (
+				667130C824BF2B4900EF9891 /* ClientTest.swift */,
+				666A4ACC24BEEF7A00E4E016 /* DataBaseHelperTest.swift */,
+				667130C424BEFDA800EF9891 /* MovieManagerTest.swift */,
+				667130C624BF012E00EF9891 /* TestDataStructs.swift */,
+				666A4ACE24BEF0D700E4E016 /* StreamAppAdamKramarTests-Bridging-Header.h */,
+				666A4AC524BEEE5B00E4E016 /* Info.plist */,
+			);
+			path = StreamAppAdamKramarTests;
+			sourceTree = "<group>";
+		};
+		B99806CE980AED2A62746AD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A16FC634306459D8CEAA4E92 /* Pods-StreamAppAdamKramar.debug.xcconfig */,
+				CF86AB1B0A6A313362F13D99 /* Pods-StreamAppAdamKramar.release.xcconfig */,
+				9641F89F412515F69966B545 /* Pods-StreamAppAdamKramarTests.debug.xcconfig */,
+				0C8B8504A516241B198E369C /* Pods-StreamAppAdamKramarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E60293613D81827B9AA134D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51EFC9973D28072D5B8FB11 /* libPods-StreamAppAdamKramar.a */,
+				1C53189B535CF9BE8DB793E2 /* libPods-StreamAppAdamKramarTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665D4BB8242A3CF800B8E4FD /* StreamAppAdamKramar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665D4BCD242A3CFD00B8E4FD /* Build configuration list for PBXNativeTarget "StreamAppAdamKramar" */;
+			buildPhases = (
+				15F5F8315D94497A37C59309 /* [CP] Check Pods Manifest.lock */,
+				665D4BB5242A3CF800B8E4FD /* Sources */,
+				665D4BB6242A3CF800B8E4FD /* Frameworks */,
+				665D4BB7242A3CF800B8E4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamAppAdamKramar;
+			productName = 24iStreamAppAdamKramar;
+			productReference = 665D4BB9242A3CF800B8E4FD /* StreamAppAdamKramar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666A4AC024BEEE5B00E4E016 /* StreamAppAdamKramarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666A4AC824BEEE5B00E4E016 /* Build configuration list for PBXNativeTarget "StreamAppAdamKramarTests" */;
+			buildPhases = (
+				666679D99962741921350803 /* [CP] Check Pods Manifest.lock */,
+				666A4ABD24BEEE5B00E4E016 /* Sources */,
+				666A4ABE24BEEE5B00E4E016 /* Frameworks */,
+				666A4ABF24BEEE5B00E4E016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666A4AC724BEEE5B00E4E016 /* PBXTargetDependency */,
+			);
+			name = StreamAppAdamKramarTests;
+			productName = StreamAppAdamKramarTests;
+			productReference = 666A4AC124BEEE5B00E4E016 /* StreamAppAdamKramarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665D4BB1242A3CF800B8E4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Adam Kramar";
+				TargetAttributes = {
+					665D4BB8242A3CF800B8E4FD = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					666A4AC024BEEE5B00E4E016 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 665D4BB8242A3CF800B8E4FD;
+					};
+				};
+			};
+			buildConfigurationList = 665D4BB4242A3CF800B8E4FD /* Build configuration list for PBXProject "StreamAppAdamKramar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665D4BB0242A3CF800B8E4FD;
+			productRefGroup = 665D4BBA242A3CF800B8E4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665D4BB8242A3CF800B8E4FD /* StreamAppAdamKramar */,
+				666A4AC024BEEE5B00E4E016 /* StreamAppAdamKramarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665D4BB7242A3CF800B8E4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665D4BC6242A3CFC00B8E4FD /* Assets.xcassets in Resources */,
+				665D4BDE242A84F200B8E4FD /* MovieCell.xib in Resources */,
+				665D4BC4242A3CF800B8E4FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A4ABF24BEEE5B00E4E016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F5F8315D94497A37C59309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamAppAdamKramar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666679D99962741921350803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamAppAdamKramarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665D4BB5242A3CF800B8E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665D4BC1242A3CF800B8E4FD /* DetailViewController.swift in Sources */,
+				665D4BBD242A3CF800B8E4FD /* AppDelegate.swift in Sources */,
+				665D4BDD242A84F200B8E4FD /* MovieCell.swift in Sources */,
+				665D4C04242D5A8D00B8E4FD /* DataBaseHelper.swift in Sources */,
+				665D4C02242D547300B8E4FD /* MovieModel.xcdatamodeld in Sources */,
+				665D4BF2242BB45300B8E4FD /* MovieDetailManager.swift in Sources */,
+				666A4AB824BE40CE00E4E016 /* Connectivity.swift in Sources */,
+				665D4C09242E495800B8E4FD /* Alert.swift in Sources */,
+				666A4ABA24BE4C3300E4E016 /* Client.swift in Sources */,
+				665D4BFE242BFDD100B8E4FD /* YouTubeVideoQuality.swift in Sources */,
+				665D4BEE242BAD5000B8E4FD /* DataStructs.swift in Sources */,
+				665D4BD7242A825000B8E4FD /* ListViewController.swift in Sources */,
+				665D4BE6242B97D300B8E4FD /* Constants.swift in Sources */,
+				665D4BBF242A3CF800B8E4FD /* SceneDelegate.swift in Sources */,
+				666A4ABC24BE576900E4E016 /* MovieManagerHelper.swift in Sources */,
+				665D4BE0242A88E900B8E4FD /* MovieListManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A4ABD24BEEE5B00E4E016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667130C724BF012E00EF9891 /* TestDataStructs.swift in Sources */,
+				667130C524BEFDA800EF9891 /* MovieManagerTest.swift in Sources */,
+				667130C924BF2B4900EF9891 /* ClientTest.swift in Sources */,
+				666A4ACD24BEEF7A00E4E016 /* DataBaseHelperTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666A4AC724BEEE5B00E4E016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665D4BB8242A3CF800B8E4FD /* StreamAppAdamKramar */;
+			targetProxy = 666A4AC624BEEE5B00E4E016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		665D4BC2242A3CF800B8E4FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665D4BC3242A3CF800B8E4FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665D4BCB242A3CFD00B8E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665D4BCC242A3CFD00B8E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665D4BCE242A3CFD00B8E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16FC634306459D8CEAA4E92 /* Pods-StreamAppAdamKramar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL48S53Q9A;
+				INFOPLIST_FILE = StreamAppAdamKramar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sk.kramar.StreamAppAdamKramar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StreamAppAdamKramar/Headers/StreamAppAdamKramar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665D4BCF242A3CFD00B8E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF86AB1B0A6A313362F13D99 /* Pods-StreamAppAdamKramar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL48S53Q9A;
+				INFOPLIST_FILE = StreamAppAdamKramar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sk.kramar.StreamAppAdamKramar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StreamAppAdamKramar/Headers/StreamAppAdamKramar-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		666A4AC924BEEE5B00E4E016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9641F89F412515F69966B545 /* Pods-StreamAppAdamKramarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StreamAppAdamKramarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sk.kramar.StreamAppAdamKramarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StreamAppAdamKramarTests/StreamAppAdamKramarTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamAppAdamKramar.app/StreamAppAdamKramar";
+			};
+			name = Debug;
+		};
+		666A4ACA24BEEE5B00E4E016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8B8504A516241B198E369C /* Pods-StreamAppAdamKramarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StreamAppAdamKramarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sk.kramar.StreamAppAdamKramarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StreamAppAdamKramarTests/StreamAppAdamKramarTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamAppAdamKramar.app/StreamAppAdamKramar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665D4BB4242A3CF800B8E4FD /* Build configuration list for PBXProject "StreamAppAdamKramar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665D4BCB242A3CFD00B8E4FD /* Debug */,
+				665D4BCC242A3CFD00B8E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665D4BCD242A3CFD00B8E4FD /* Build configuration list for PBXNativeTarget "StreamAppAdamKramar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665D4BCE242A3CFD00B8E4FD /* Debug */,
+				665D4BCF242A3CFD00B8E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666A4AC824BEEE5B00E4E016 /* Build configuration list for PBXNativeTarget "StreamAppAdamKramarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666A4AC924BEEE5B00E4E016 /* Debug */,
+				666A4ACA24BEEE5B00E4E016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		665D4C00242D547300B8E4FD /* MovieModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				665D4C01242D547300B8E4FD /* MovieModel.xcdatamodel */,
+			);
+			currentVersion = 665D4C01242D547300B8E4FD /* MovieModel.xcdatamodel */;
+			path = MovieModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 665D4BB1242A3CF800B8E4FD /* Project object */;
+}

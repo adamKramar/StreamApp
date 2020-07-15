@@ -1,0 +1,6 @@
+module Pods_StreamAppAdamKramar {
+  umbrella header "Pods-StreamAppAdamKramar-umbrella.h"
+
+  export *
+  module * { export * }
+}
